@@ -201,7 +201,7 @@ def initUsers():
     """Create database and tables"""
     db.create_all()
     """Tester data for table"""
-    u1 = User(name='Shruthi Malayath', uid='sm', password='ilovepeaches', dob=date(2006, 4, 14))
+    u1 = User(name='Nathan Kim', uid='nsk', password='nsk12345', dob=date(2005, 12, 19))
     u2 = User(name='Nicholas Tesla', uid='niko', password='123niko')
     u3 = User(name='Alexander Graham Bell', uid='lex', password='123lex')
     u4 = User(name='Eli Whitney', uid='whit', password='123whit')
